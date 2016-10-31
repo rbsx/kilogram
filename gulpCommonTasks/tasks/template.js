@@ -43,8 +43,8 @@ gulp.task('template', function() {
 			sound: "Pop"
 		}))
 		.pipe(gulp.dest(config.dest))
-		// .pipe(gdest({ext: '.tpl'}))
-		// .pipe(gulp.dest('../customs/eventreg/'))
+		.pipe(gdest({ext: '.tpl'}))
+		.pipe(gulp.dest('../customs/eventreg/'))
 		.pipe(browserSync.reload({
 			stream: true
 		}));

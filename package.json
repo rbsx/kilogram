@@ -33,7 +33,8 @@
     "marked": "^0.3.6",
     "nunjucks-markdown": "^2.0.0",
     "require-dir": "0.3.0",
-    "run-sequence": "1.1.2"
+    "run-sequence": "1.1.2",
+    "inkypad": "git://github.com/rbsx/gulp-inkypad.git"
   },
   "devDependencies": {
     "browser-sync": "^2.12.8",
@@ -43,6 +44,7 @@
     "gulp-imagemin": "^2.4.0",
     "gulp-inline-css": "^3.0.0",
     "gulp-notify": "^2.2.0",
-    "gulp-plumber": "^1.1.0"
+    "gulp-plumber": "^1.1.0",
+    "inkypad": "git://github.com/rbsx/gulp-inkypad.git"
   }
 }
