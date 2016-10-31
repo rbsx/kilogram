@@ -10,6 +10,7 @@ var markdown = require('nunjucks-markdown');
 var marked = require('marked');
 var inky = require('inkypad');
 var gdest = require('gulp-dest');
+var prettify = require('gulp-html-prettify');
 
 gulp.task('template', function() {
 	var env = nunjucksRender.nunjucks.configure([config.cwd], {
@@ -37,6 +38,7 @@ gulp.task('template', function() {
 			processConditionalComments: false,
 			keepClosingSlash: true
 		}))*/
+		.pipe(prettify({indent_char: ' ', indent_size: 2}))
 		.pipe(notify({
 			title: 'Kilopad',
 			message: "Done!",

@@ -25,16 +25,17 @@
     "gulp": "3.9.1",
     "gulp-concat": "2.6.0",
     "gulp-dest": "^0.2.3",
+    "gulp-html-prettify": "0.0.1",
     "gulp-htmlmin": "^2.0.0",
     "gulp-inline-css": "3.0.0",
     "gulp-install": "^0.6.0",
     "gulp-less": "3.1.0",
     "gulp-nunjucks-render": "1.0.0",
+    "inkypad": "git://github.com/rbsx/gulp-inkypad.git",
     "marked": "^0.3.6",
     "nunjucks-markdown": "^2.0.0",
     "require-dir": "0.3.0",
-    "run-sequence": "1.1.2",
-    "inkypad": "git://github.com/rbsx/gulp-inkypad.git"
+    "run-sequence": "1.1.2"
   },
   "devDependencies": {
     "browser-sync": "^2.12.8",
