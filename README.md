@@ -16,7 +16,7 @@ Kilopad is Kilogram`s fork with prepared custom html tags
 #Tags Support
 For Kilogram
 ```html
-<wrapper class="any classes" any-attribute="put them here"></wrapper>
+<wrap class="any classes" any-attribute="put them here"></wrap>
 <rower cols="number of cols from 1 to 3" class="any classes" any-attribute="put them here"></rower>
 <cols class="any classes" any-attribute="put them here"></cols>
 ```
